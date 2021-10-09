@@ -55,6 +55,6 @@ export const formatDate = (date: Date): string => {
             'Dezembro'
         ]
 
-        return `${months[parseInt(month) - 1]} de ${year}`
+        return `${months[parseInt(month) - 1]} ${year}`
 
     }
